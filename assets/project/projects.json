@@ -1,0 +1,22 @@
+[{
+    "name" : "Color Picker",
+    "desc" : "An app to get the most dominant color for an image.",
+    "live" : "https://ymirtuskarr01.github.io/color-picker",
+    "repo" : "https://github.com/ymirtuskarr01/color-picker",
+    "icon" : "../../color-picker/images/colorPicker.svg",
+    "img"  : "../../color-picker/images/colorPickerBase.png"
+},{
+    "name" : "Calculator",
+    "desc" : "An app to perform addition, subtraction, multiplication and division of 2 or more numbers.",
+    "live" : "https://ymirtuskarr01.github.io/odin-calculator",
+    "repo" : "https://github.com/ymirtuskarr01/odin-calculator",
+    "icon" : "../../odin-calculator/images/odinCalculator.svg",
+    "img"  : "../../odin-calculator/images/odinCalculatorBase.png"
+},{
+    "name" : "TicTacToe",
+    "desc" : "An app to play tictactoe game against AI or another player.",
+    "live" : "https://ymirtuskarr01.github.io/odin-tictactoe",
+    "repo" : "https://github.com/ymirtuskarr01/odin-tictactoe",
+    "icon" : "../../odin-tictactoe/images/tictactoe.svg",
+    "img"  : "../../odin-tictactoe/images/tictactoeBase.png"
+}]

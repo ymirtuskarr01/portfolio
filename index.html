@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Farid</title>
+    <link rel="icon" sizes="any" type="image/svg+xml" href="./images/portfolio.svg">
+    <link rel="stylesheet" href="./assets/core/portfolio.css">
+    <link rel="stylesheet" href="./lib/flickity/flickity.min.css" media="screen">
+    <script src="./lib/flickity/flickity.pkgd.min.js"></script>
+    <script type="module">
+        import Portfolio from './assets/core/portfolio.js';
+
+        window.addEventListener("DOMContentLoaded", () => {
+            let portfolio = new Portfolio;
+        })
+    </script>
+</head>
+<body>
+    <header>
+    </header>
+    <main id="dashboard">
+        <section id="category">
+            <div class="icon">
+                <h3>About</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,8.39C13.57,9.4 15.42,10 17.42,10C18.2,10 18.95,9.91 19.67,9.74C19.88,10.45 20,11.21 20,12C20,16.41 16.41,20 12,20C9,20 6.39,18.34 5,15.89L6.75,14V13A1.25,1.25 0 0,1 8,11.75A1.25,1.25 0 0,1 9.25,13V14H12M16,11.75A1.25,1.25 0 0,0 14.75,13A1.25,1.25 0 0,0 16,14.25A1.25,1.25 0 0,0 17.25,13A1.25,1.25 0 0,0 16,11.75Z" /></svg>
+            </div>
+            <div class="icon">
+                <h3>Projects</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,6C20.58,6 21.05,6.2 21.42,6.59C21.8,7 22,7.45 22,8V19C22,19.55 21.8,20 21.42,20.41C21.05,20.8 20.58,21 20,21H4C3.42,21 2.95,20.8 2.58,20.41C2.2,20 2,19.55 2,19V8C2,7.45 2.2,7 2.58,6.59C2.95,6.2 3.42,6 4,6H8V4C8,3.42 8.2,2.95 8.58,2.58C8.95,2.2 9.42,2 10,2H14C14.58,2 15.05,2.2 15.42,2.58C15.8,2.95 16,3.42 16,4V6H20M4,8V19H20V8H4M14,6V4H10V6H14Z" /></svg>
+            </div>
+            <div class="icon">
+                <h3>Contact</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4M20 18H4V6H20V18M4 0H20V2H4M4 22H20V24H4M12 12C13.38 12 14.5 10.88 14.5 9.5S13.38 7 12 7 9.5 8.12 9.5 9.5 10.62 12 12 12M12 8.5C12.55 8.5 13 8.95 13 9.5S12.55 10.5 12 10.5 11 10.05 11 9.5 11.45 8.5 12 8.5M17 16C17 13.9 13.69 13 12 13S7 13.9 7 16V17H17V16M8.81 15.5C9.42 15 10.84 14.5 12 14.5C13.17 14.5 14.59 15 15.2 15.5H8.81Z" /></svg>
+            </div>
+        </section>
+        <section id="about">
+            <article id="about_info">
+                <div id="personal"></div>
+            </article>
+        </section>
+        <section id="projects">
+            <div id="view">
+                <div class="buttonView">
+                    <button type="button" id="gridView" class="selected">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,11H11V3H3M3,21H11V13H3M13,21H21V13H13M13,3V11H21V3" /></svg>
+                    </button>
+                    <button type="button" id="carousel">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18,6V17H22V6M2,17H6V6H2M7,19H17V4H7V19Z" /></svg>
+                    </button>
+                </div>
+            </div>
+            <div id="projectList" class="is-expanded">
+            </div>
+        </section>
+        <section id="contact">
+            <article id="contact_info">
+                <div id="social"></div>
+            </article>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
